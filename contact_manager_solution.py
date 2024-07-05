@@ -4,6 +4,7 @@ class User:
         self.username = username
         self.posts = []
         self.liked_posts = []  
+#comment
 
     def create_post(self, content):
         post = Post(self.username, content)
